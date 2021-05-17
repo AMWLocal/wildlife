@@ -1,0 +1,294 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 27px;
+    line-height: 40px;
+    text-align: center;
+    color: #333333;
+}
+
+.logo {
+    width: 70px;
+    height: 60px;
+    font-family: Roboto;
+    font-size: 400;
+    margin-top: 20px;
+}
+
+.nav_link {
+    text-decoration: none;
+    color: white;
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.header_iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_bg {
+    background-image: url('./img/bg.png');
+    height: 100%;
+    background-size: 100%;
+    min-height: 780px;
+    background-repeat: no-repeat;
+
+}
+
+.header_name {
+    text-transform: uppercase;
+    color: white;
+    font-family: "Roboto";
+    font-size: 32px;
+    padding-top: 35px;
+    margin-left: 15px;
+    font-weight: 400;
+    display: block;
+
+}
+
+.nav {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 72px;
+}
+
+
+
+.header_logo {
+    box-sizing: border-box;
+    display: flex;
+}
+
+.text_title {
+    font-family: 'Open Sans';
+    font-size: 48px;
+    color: #CD6326;
+    font-weight: 400;
+
+}
+
+
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    list-style-type: none;
+}
+
+.nav_btn_login {
+    background-color: Transparent;
+    border: 1px solid #CD6326;
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    text-decoration: none;
+
+
+}
+
+.text_about {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 27px;
+    color: #F7F7F7;
+    max-width: 274px;
+
+}
+
+.btn_donate {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    background: #CD6326;
+    border-radius: 5px;
+    color: #F7F7F7;
+    text-align: center;
+    width: 160px;
+    height: 60px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.articles {
+    background: #CCCCCC;
+}
+
+.name_title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    color: #333333;
+    padding-top: 120px;
+}
+
+.swiper-container {
+    max-width: 1020px;
+    height: 360px;
+}
+
+.swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.articles {
+    text-align: center;
+}
+
+.name_title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 72px;
+    text-align: center;
+    color: #333333;
+    margin: 0 auto;
+
+}
+
+.news_title {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #666666;
+}
+
+.form_mail {
+    padding-bottom: 300px;
+}
+
+.send_mail {
+    width: 120px;
+    height: 60px;
+    background: #CD6326;
+    border: 1px solid #CD6326;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
+
+}
+
+.input_mail {
+    width: 540px;
+    height: 60px;
+    opacity: 0.5;
+    border-radius: 0px;
+    border: none;
+
+}
+
+.input_mail::placeholder {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #666666;
+    padding-left: 16px;
+}
+
+.footer_bg {
+    background-image: url('./img/Rectangle\ \(3\).jpg');
+    height: 100%;
+    background-size: 100%;
+    min-height: 290px;
+    background-repeat: no-repeat;
+}
+
+.about_news {
+    position: absolute;
+    bottom: 70px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+}
+
+.text_image {
+
+    font-size: 22px;
+    line-height: 36px;
+    text-align: center;
+    color: #F7F7F7;
+
+}
+
+.art {
+    padding-top: 240px;
+}
+
+.sub_text {
+
+
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+    color: #F7F7F7;
+}
+
+
+.footer_nav {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 60px;
+    color: #F7F7F7;
+    margin-right: 85px;
+}
+
+.footer_nav:last-child {
+    margin-right: 0;
+}
+
+.footer_navbar {
+    margin-top: 20px;
+}
+
+.link {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 150px;
+}
